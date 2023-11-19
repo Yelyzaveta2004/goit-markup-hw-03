@@ -7,12 +7,50 @@
 button{
     cursor: pointer;
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color:#FFFFFF;
 }
+.visually-hidden{
+position: absolute;
+width: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+ }
 
+ .container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+/*  ===========хедер=========== */
+.page-header-container{
+    display: flex;
+    width: 344px;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
     color: #4D5AE5;
  font-family: 'Raleway', sans-serif;
@@ -21,12 +59,28 @@ body{
  line-height: 1.17;
  letter-spacing: 0.03em;
  text-transform: uppercase;
+ margin-right: 76px;
   }
   .logo-studio {
     color: #2E2F42;
   }
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    } 
+.menu{
+    display: flex;
+    column-gap: 40px;
+}
+  .menu-item{
+    display: flex; 
+  }
  
   .menu-link{
+    display: block;
+    padding-top: 28px;
+    padding-bottom: 28px;
  color: #2E2F42;
  font-size: 16px;
  font-weight: 500;
@@ -39,9 +93,14 @@ body{
   
   .address-one{
     font-style: normal;
-    
+  }
+  .address-list{
+    display: flex;
+    column-gap: 40px;
   }
  .link-address{
+    padding-top: 28px;
+    padding-bottom: 28px;
     color:#434455;
     font-style: normal;
     font-size: 16px;
@@ -60,6 +119,7 @@ body{
  line-height: 1.07;
  letter-spacing: 0.02em;
 }
+/*=========== перша секція==========*/
 .section-one{
  background-color: #2E2F42;
 }
@@ -74,10 +134,11 @@ body{
 .button-section-one:hover,:focus{
     background-color: #404BBF;
 }
-
-.title-section-two{
- visibility: hidden;
+.address-list{
+    display: flex;
 }
+/*============друга секція============= */
+ 
 .features-section-two{
  color: #2E2F42;
  font-size: 20px;
@@ -92,6 +153,7 @@ body{
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
+/*==================третя секція==================*/
 .section-three{
  background-color: #F4F4FD;
 }
@@ -124,6 +186,7 @@ text-transform: capitalize;
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
+/*==============четтверта секція=============*/
 .title-section-four{
     color: #2E2F42;
     text-align: center;
@@ -149,6 +212,7 @@ text-transform: capitalize;
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
+/*================футер=============*/
 .text-footer-one{
     color: #F4F4FD;
  font-size: 16px;
