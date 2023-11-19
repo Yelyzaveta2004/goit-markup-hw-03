@@ -75,7 +75,7 @@ body{
 .menu{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding: 28px 0;
 }
   .menu-item{
     display: flex; 
