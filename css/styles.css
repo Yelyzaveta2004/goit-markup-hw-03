@@ -279,6 +279,12 @@ margin-bottom: 72px;
 .item-section-four{
     padding-bottom: 32px;
 }
+.section-four-div{
+    padding: 32px 16px ;
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
+    margin-bottom: 8px;
+}
 /*================футер=============*/
 .text-footer-one{
     color: #F4F4FD;
