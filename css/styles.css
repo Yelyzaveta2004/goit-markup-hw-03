@@ -60,6 +60,9 @@ overflow: hidden;
  text-transform: uppercase;
  margin-right: 76px;
   }
+  .page-header{
+    border-bottom: 1px solid #e7e9fc;
+  }
   .logo-studio {
     color: #2E2F42;
   }
@@ -70,7 +73,7 @@ overflow: hidden;
     } 
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
   .menu-item{
     display: flex; 
@@ -124,6 +127,7 @@ overflow: hidden;
 /*=========== перша секція==========*/
 .section-one{
  background-color: #2E2F42;
+ padding: 188px 0;
 }
 .button-section-one{
     color: #FFF;
@@ -135,21 +139,25 @@ overflow: hidden;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    min-width: 169px;
+    height: 56px ;
+    border: none;
+    border-radius: 4px; 
 }
 .button-section-one:hover,:focus{
     background-color: #404BBF;
 }
 .title-section-one{
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    padding-top: 188px;
 }
 
 /*============друга секція============= */
- 
+ .section-two{
+    padding: 120px 0;
+ }
 .features-section-two{
  color: #2E2F42;
  font-size: 20px;
@@ -159,9 +167,7 @@ overflow: hidden;
 }
 .features-list{
    display: flex; 
-   column-gap: 24px;
-   padding-top: 120px;
-   padding-bottom: 120px;
+   gap: 24px;
 }
 .text-section-two{
  color: #434455;
@@ -170,13 +176,21 @@ overflow: hidden;
  line-height: 1.5;
  letter-spacing: 0.02em;
 }
+.title-section-two{
+    margin-bottom: 8px; 
+}
+.item-section-two{
+    width: calc((100% - 72px) / 4);
+}
 /*==================третя секція==================*/
 .section-three{
  background-color: #F4F4FD;
+ padding: 120px 0;
 }
 .item-section-three{
  background-color: #FFFFFF;
  padding-bottom: 32px;
+ border-radius: 0px 0px 4px 4px; 
 }
 .title-section-three{
     color: #2E2F42;
@@ -186,8 +200,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px
 }
 
 .name-section-three{
@@ -209,10 +222,15 @@ padding-bottom: 72px;
 }
 .our-team-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     padding-bottom: 120px;
 }
 /*==============четверта секція=============*/
+.section-four{
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
+
 .title-section-four{
     color: #2E2F42;
     text-align: center;
@@ -245,7 +263,8 @@ padding-bottom: 72px;
 .our-portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
+    row-gap: 48px
 
 }
 .section-four-container{
@@ -263,7 +282,6 @@ padding-bottom: 72px;
  line-height: 1.5;
  letter-spacing: 0.02em;
  width: 264px;
- padding-bottom: 100px;
 }
  .logo-studio-footer{
     color: #F4F4FD;
@@ -276,4 +294,9 @@ padding-bottom: 72px;
   }
 .footer-one{
     background-color: #2E2F42;
+    padding: 100px 0;
+}
+.web-footer{
+    display: inline-block; 
+    margin-bottom: 16px;
 }
