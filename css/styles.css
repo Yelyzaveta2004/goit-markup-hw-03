@@ -24,18 +24,19 @@ body{
     color: #434455;
     background-color:#FFFFFF;
 }
-.visually-hidden{
-position: absolute;
-width: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
- }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+  
  .container{
     width: 1158px;
     margin-left: auto;
@@ -62,7 +63,6 @@ overflow: hidden;
   }
   .page-header{
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
   }
   .logo-studio {
     color: #2E2F42;
@@ -71,6 +71,7 @@ overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
     } 
 .menu{
     display: flex;
@@ -124,6 +125,7 @@ overflow: hidden;
 }
 .address-list{
     display: flex;
+    gap: 40px;
 }
 /*=========== перша секція==========*/
 .section-one{
@@ -165,6 +167,7 @@ overflow: hidden;
  font-weight: 500;
  line-height: 1.2;
  letter-spacing: 0.02em;
+ margin-bottom: 8px;
 }
 .features-list{
    display: flex; 
@@ -254,6 +257,7 @@ margin-bottom: 72px;
  line-height:1.2;
  letter-spacing: 0.02em;
  padding-top: 32px;
+ margin-bottom: 8px;
 }
 .text-section-four{
     color: #434455;
