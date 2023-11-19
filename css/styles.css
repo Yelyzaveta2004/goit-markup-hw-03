@@ -200,7 +200,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 72px
+margin-bottom: 72px;
 }
 
 .name-section-three{
@@ -211,6 +211,7 @@ margin-bottom: 72px
  line-height:1.2;
  letter-spacing: 0.02em;
  padding-top: 32px;
+ margin-bottom: 8px ;
 }
 .text-section-three{
  color: #434455;
@@ -224,6 +225,10 @@ margin-bottom: 72px
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
+}
+.section-three-div{
+    padding: 32px 0;
+
 }
 /*==============четверта секція=============*/
 .section-four{
