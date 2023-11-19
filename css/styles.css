@@ -75,7 +75,6 @@ body{
 .menu{
     display: flex;
     gap: 40px;
-    padding: 28px 0;
 }
   .menu-item{
     display: flex; 
@@ -83,8 +82,8 @@ body{
  
   .menu-link{
     display: block;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 24px;
+    padding-bottom: 24px;
  color: #2E2F42;
  font-size: 16px;
  font-weight: 500;
@@ -249,6 +248,7 @@ margin-bottom: 72px;
     text-transform: capitalize;
     margin-bottom: 72px;
 }
+
 .name-section-four{
     color:  #2E2F42;
  text-align: center;
