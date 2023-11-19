@@ -102,8 +102,6 @@ body{
     column-gap: 40px;
   }
  .link-address{
-    padding-top: 28px;
-    padding-bottom: 28px;
     color:#434455;
     font-style: normal;
     font-size: 16px;
@@ -192,7 +190,6 @@ body{
 }
 .item-section-three{
  background-color: #FFFFFF;
- padding-bottom: 32px;
  border-radius: 0px 0px 4px 4px; 
 }
 .title-section-three{
@@ -213,7 +210,6 @@ margin-bottom: 72px;
  font-weight: 500;
  line-height:1.2;
  letter-spacing: 0.02em;
- padding-top: 32px;
  margin-bottom: 8px ;
 }
 .text-section-three{
@@ -251,17 +247,14 @@ margin-bottom: 72px;
 
 .name-section-four{
     color:  #2E2F42;
- text-align: center;
  font-size: 20px;
  font-weight: 500;
  line-height:1.2;
  letter-spacing: 0.02em;
- padding-top: 32px;
  margin-bottom: 8px;
 }
 .text-section-four{
     color: #434455;
- text-align: center;
  font-size: 16px;
  font-weight: 400;
  line-height: 1.5;
@@ -273,12 +266,6 @@ margin-bottom: 72px;
     gap: 24px;
     row-gap: 48px
 
-}
-.section-four-container{
-    padding-top: 60px;
-}
-.item-section-four{
-    padding-bottom: 32px;
 }
 .section-four-div{
     padding: 32px 16px ;
